@@ -89,15 +89,15 @@ function selectionSort(array) {
 
 
     while (resultArr.length !== array.length) {
+
         let minVal = minimum(copyArr);
         copyArr.splice(copyArr.indexOf(minVal), 1);
         resultArr.push(minVal);
+
     }
 
-
-
-    console.log("final array: " + resultArr);
     return resultArr;
+
 }
 
 
